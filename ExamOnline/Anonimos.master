@@ -1,6 +1,6 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/BigMaster.Master" AutoEventWireup="true" CodeBehind="Anonimos.master.cs" Inherits="ExamOnline.Anonimos" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder_Menu" runat="server">
-     <div id="menu" style="padding-left:400px;">
+     <div id="menu" style="padding-left:400px; z-index: 1; position: absolute; top: 200px; left: 0px; width: 549px;">
     <ul>
       <li><a href="#" class="current">Home</a></li>
       <li><a href="#">AboutUs</a></li>
