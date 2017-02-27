@@ -1,0 +1,12 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/BigMaster.Master" AutoEventWireup="true" CodeBehind="Anonimos.master.cs" Inherits="ExamOnline.Anonimos" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder_Menu" runat="server">
+     <div id="menu" style="padding-left:400px;">
+    <ul>
+      <li><a href="#" class="current">Home</a></li>
+      <li><a href="#">AboutUs</a></li>
+      <li><a href="#">ContactUs</a></li>
+    </ul></div>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Body" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder_body" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
