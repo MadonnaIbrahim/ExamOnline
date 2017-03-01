@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/BigMaster.Master" AutoEventWireup="true" CodeBehind="studentMaster.master.cs" Inherits="ExamOnline.studentMaster" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder_Menu" runat="server">
+         <div id="menu" style="padding-left:100px; z-index: 1; position: absolute; top: 200px; left: 0px; width: 853px;">
+    <ul>
+      <li><a href="#" class="current">Home</a></li>
+      <li><a href="#">Exams</a></li>
+      <li><a href="#">Instructor</a></li>
+        <li><a href="#">Course</a></li>
+        <li><a href="#">Topics</a></li>
+    </ul></div>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Body" runat="server">
+     <div id="content_wrapper">
+  <div id="sidebar">
+    <div class="sidebar_box">
+        
+           <form id="form1" runat="server">
+                <table style="width: 98%; height: 191px;">
+                    <tr>
+                        <td style="width: 42px">&nbsp;</td>
+                        <td style="width: 101px" class="profilepic">
+                            <asp:Image ID="Image_ProfilePic" runat="server" CssClass="profilepic" Height="88px" ImageUrl="~/images/student.png" />
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 42px">welcome:</td>
+                        <td style="width: 101px">
+                            <asp:Label ID="Label_userName" runat="server"></asp:Label>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 42px">Desc:</td>
+                        <td style="width: 101px">
+                            [Student]</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 42px">&nbsp;</td>
+                        <td style="width: 101px">
+                           <asp:Button ID="Button_Logout" runat="server" CssClass="login" Text="LogOut" style="left: 3px; top: 0px; position: relative; z-index: 1;"  />
+                            <br />
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    </table>
+            </form> 
+    </div>
+      <div class="sidebar_box_bottom"></div>
+      <div class="sidebar_box">
+      <h2>Important Links:</h2>
+         
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder_Links" runat="server">
+              <p>
+                  <br />
+              </p>
+              <p>
+              </p>
+          </asp:ContentPlaceHolder>
+         
+    </div>
+    <div class="sidebar_box_bottom">
+
+
+    </div>
+  </div>
+  <!-- end of sidebar -->
+  <div id="content">
+    <div class="content_box">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder_Main" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="content_box_bottom"></div>
+  <!-- end of content -->
+  <div class="cleaner"></div>
+</div>
+     </div>
+    <div class="cleaner"></div>
+</asp:Content>

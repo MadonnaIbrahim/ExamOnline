@@ -10,7 +10,7 @@
 namespace ExamOnline {
     
     
-    public partial class Home {
+    public partial class studentMaster {
         
         /// <summary>
         /// form1 control.
@@ -22,48 +22,48 @@ namespace ExamOnline {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// TextBox_UserName control.
+        /// Image_ProfilePic control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_UserName;
+        protected global::System.Web.UI.WebControls.Image Image_ProfilePic;
         
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// Label_userName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.Label Label_userName;
         
         /// <summary>
-        /// TextBox_Password control.
+        /// Button_Logout control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_Password;
+        protected global::System.Web.UI.WebControls.Button Button_Logout;
         
         /// <summary>
-        /// RequiredFieldValidator2 control.
+        /// ContentPlaceHolder_Links control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder_Links;
         
         /// <summary>
-        /// Button_Login control.
+        /// ContentPlaceHolder_Main control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_Login;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder_Main;
     }
 }

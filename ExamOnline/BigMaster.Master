@@ -25,7 +25,9 @@
  
   <!-- end of menu -->
 </div>
+    <form runat="server">
     <asp:ContentPlaceHolder ID="ContentPlaceHolder_Body" runat="server"></asp:ContentPlaceHolder>
+        </form>
 <div id="footer_wrapper">
   <div id="footer">
     <ul class="footer_menu">

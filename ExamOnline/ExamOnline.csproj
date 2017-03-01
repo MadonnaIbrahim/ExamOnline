@@ -66,10 +66,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Home.aspx" />
+    <Content Include="AdminProfile.aspx" />
+    <Content Include="AnonimousProfile.aspx" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="ContactUs_Anonimous.aspx" />
+    <Content Include="images\Administrator.png" />
+    <Content Include="images\body.jpg" />
+    <Content Include="images\content_bottom.jpg" />
+    <Content Include="images\footer_top.jpg" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\images01.jpg" />
+    <Content Include="images\instructor.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\menu.jpg" />
+    <Content Include="images\menu_hover.jpg" />
+    <Content Include="images\sidebar_section_bottom.jpg" />
+    <Content Include="images\student.png" />
     <Content Include="packages.config" />
     <Content Include="BigMaster.Master" />
-    <Content Include="Anonimos.master" />
+    <Content Include="AdminMaster.master" />
+    <Content Include="Anonimous.master" />
+    <Content Include="Instructor.master" />
+    <Content Include="InstructorProfile.aspx" />
+    <Content Include="studentMaster.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,12 +101,48 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Anonimos.master.cs">
-      <DependentUpon>Anonimos.master</DependentUpon>
+    <Compile Include="AdminProfile.aspx.cs">
+      <DependentUpon>AdminProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Anonimos.master.designer.cs">
-      <DependentUpon>Anonimos.master</DependentUpon>
+    <Compile Include="AdminProfile.aspx.designer.cs">
+      <DependentUpon>AdminProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs_Anonimous.aspx.cs">
+      <DependentUpon>ContactUs_Anonimous.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs_Anonimous.aspx.designer.cs">
+      <DependentUpon>ContactUs_Anonimous.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Instructor.master.cs">
+      <DependentUpon>Instructor.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anonimous.master.cs">
+      <DependentUpon>Anonimous.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anonimous.master.designer.cs">
+      <DependentUpon>Anonimous.master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMaster.master.cs">
+      <DependentUpon>AdminMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnonimousProfile.aspx.cs">
+      <DependentUpon>AnonimousProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnonimousProfile.aspx.designer.cs">
+      <DependentUpon>AnonimousProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="BigMaster.Master.cs">
       <DependentUpon>BigMaster.Master</DependentUpon>
@@ -96,18 +151,23 @@
     <Compile Include="BigMaster.Master.designer.cs">
       <DependentUpon>BigMaster.Master</DependentUpon>
     </Compile>
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="InstructorProfile.aspx.cs">
+      <DependentUpon>InstructorProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="InstructorProfile.aspx.designer.cs">
+      <DependentUpon>InstructorProfile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="studentMaster.master.cs">
+      <DependentUpon>studentMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="studentMaster.master.designer.cs">
+      <DependentUpon>studentMaster.master</DependentUpon>
+    </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
