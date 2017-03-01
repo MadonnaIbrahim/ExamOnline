@@ -1,9 +1,8 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/BigMaster.Master" AutoEventWireup="true" CodeBehind="Anonimous.master.cs" Inherits="ExamOnline.AdminMaster" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder_Menu" runat="server">
-     <div id="menu" style="padding-left:400px; z-index: 1; position: absolute; top: 200px; left: 0px; width: 548px;">
+     <div id="menu" style="padding-left:500px; z-index: 1; position: absolute; top: 200px; left: 0px; width: 548px;">
     <ul>
       <li><a href="#" class="current">Home</a></li>
-      <li><a href="#">AboutUs</a></li>
       <li><a href="#">ContactUs</a></li>
     </ul></div>
     
@@ -33,11 +32,6 @@
                 <tr>
                     <td colspan="2">
                         <asp:Button ID="Button_Login" runat="server" CssClass="login" Text="LogIn" ValidationGroup="a"  />
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <asp:HyperLink ID="HyperLink1" runat="server" Font-Size="Small" Font-Underline="True" NavigateUrl="~/FlyingCrow.aspx" Text="Forget Password!"></asp:HyperLink>
                     </td>
                 </tr>
                 <tr>

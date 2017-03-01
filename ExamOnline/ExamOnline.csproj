@@ -70,6 +70,7 @@
     <Content Include="AnonimousProfile.aspx" />
     <Content Include="ChangePassword.aspx" />
     <Content Include="ContactUs_Anonimous.aspx" />
+    <Content Include="ForgetPassword.aspx" />
     <Content Include="images\Administrator.png" />
     <Content Include="images\body.jpg" />
     <Content Include="images\content_bottom.jpg" />
@@ -88,6 +89,7 @@
     <Content Include="Anonimous.master" />
     <Content Include="Instructor.master" />
     <Content Include="InstructorProfile.aspx" />
+    <Content Include="Registeration.aspx" />
     <Content Include="studentMaster.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -121,6 +123,13 @@
     </Compile>
     <Compile Include="ContactUs_Anonimous.aspx.designer.cs">
       <DependentUpon>ContactUs_Anonimous.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.designer.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="Instructor.master.cs">
       <DependentUpon>Instructor.master</DependentUpon>
@@ -158,6 +167,13 @@
     </Compile>
     <Compile Include="InstructorProfile.aspx.designer.cs">
       <DependentUpon>InstructorProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registeration.aspx.cs">
+      <DependentUpon>Registeration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registeration.aspx.designer.cs">
+      <DependentUpon>Registeration.aspx</DependentUpon>
     </Compile>
     <Compile Include="studentMaster.master.cs">
       <DependentUpon>studentMaster.master</DependentUpon>
